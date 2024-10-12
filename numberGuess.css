@@ -1,0 +1,191 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.changeThemeBtn
+{
+    position: absolute;
+    top: 3vh;
+    left: 3vh;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.changeThemeBtn:hover
+{
+    background-color: rgb(248, 248, 205);
+}
+
+.changeThemeBtn:active
+{
+    background-color: rgb(246, 221, 188);
+}
+
+body
+{
+    background-color: azure;
+
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyDark
+{
+    background-color: green;
+}
+
+.bodyDark *
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.interFaceDiv
+{
+    background-color: whitesmoke;
+
+    width: 75vh;
+    height: 40vh;
+
+    border: 1px solid gray;
+    border-radius: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.interDark
+{
+    background-color: darkgreen;
+    border: 3px solid black;
+    border-radius: 0;
+}
+
+.numOfAttemptsDiv,
+.GuessingSectionDiv,
+.estimateDiv
+{
+    width: 100%;
+    height: 33%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3vh;
+}
+
+.guessInptS
+{
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 3vh;
+    height: 6vh;
+    width: 9vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    text-align: center;
+}
+
+.guessDark
+{
+    border: 4px solid black;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.guessBtnS
+{
+    background-color: beige;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 2vh;
+    height: 6vh;
+    width: 9vh;
+    padding-left: 1vh;
+    padding-right: 1vh;   
+    transition: background-color 0.15s; 
+    margin-left: 1vh;
+    cursor: pointer;
+}
+
+.guessBtnS:hover
+{
+    background-color: rgb(248, 248, 205);
+}
+
+.guessBtnS:active
+{
+    background-color: rgb(246, 221, 188);
+}
+
+.btnDark
+{
+    background-color: teal;
+    border: 4px solid black;
+    border-radius: 0;
+    transition: background-color 0.35s;
+    height: 6.6vh;
+}
+
+.btnDark:hover
+{
+    background-color: rgb(0, 82, 82);
+}
+
+.btnDark:active
+{
+    background-color: rgb(0, 56, 56);
+}
+
+.guessS
+{
+    font-size: 4vh;
+    margin-right: 1vh;
+}
+
+#lowerV
+{
+    margin-right: 1vh;
+}
+
+#upperV
+{
+    margin-left: 1vh;
+}
+
+.adT
+{
+    margin-right: 1vh;
+}
+
+.themeDarkBtn
+{
+    background-color: teal;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: background-color 0.35s;
+}
+
+.themeDarkBtn:hover
+{
+    background-color: rgb(0, 82, 82);
+}
+
+.themeDarkBtn:active
+{
+    background-color: rgb(0, 56, 56);
+}
